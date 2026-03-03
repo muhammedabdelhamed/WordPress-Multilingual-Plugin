@@ -1,0 +1,193 @@
+/**
+ * Maharat Multilingual – Post Editor Styles
+ *
+ * Styles for the translation meta box on the post edit screen.
+ *
+ * @package Maharat\Multilingual
+ */
+
+/* =====================================================================
+   Translation Meta Box
+   ===================================================================== */
+#maharat-translation-meta-box .inside {
+    padding: 0;
+}
+
+.maharat-meta-box {
+    padding: 12px;
+}
+
+.maharat-meta-box__language {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f0f1;
+}
+
+.maharat-meta-box__language:last-child {
+    border-bottom: none;
+}
+
+.maharat-meta-box__flag {
+    width: 24px;
+    height: 16px;
+    border-radius: 2px;
+    flex-shrink: 0;
+}
+
+.maharat-meta-box__name {
+    flex: 1;
+    font-weight: 500;
+    font-size: 13px;
+    color: #1d2327;
+}
+
+.maharat-meta-box__status {
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.maharat-meta-box__status--translated {
+    background: #e6f7e9;
+    color: #00a32a;
+}
+
+.maharat-meta-box__status--pending {
+    background: #fcf0c3;
+    color: #dba617;
+}
+
+.maharat-meta-box__status--missing {
+    background: #f0f0f1;
+    color: #50575e;
+}
+
+.maharat-meta-box__actions {
+    display: flex;
+    gap: 4px;
+}
+
+.maharat-meta-box__actions a,
+.maharat-meta-box__actions button {
+    font-size: 12px;
+    text-decoration: none;
+    padding: 2px 8px;
+    border-radius: 3px;
+    border: 1px solid #c3c4c7;
+    background: #f6f7f7;
+    color: #2271b1;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.maharat-meta-box__actions a:hover,
+.maharat-meta-box__actions button:hover {
+    background: #f0f0f1;
+    border-color: #8c8f94;
+}
+
+/* Edit link */
+.maharat-meta-box__actions .maharat-edit {
+    color: #2271b1;
+}
+
+/* Create / Translate link */
+.maharat-meta-box__actions .maharat-create {
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+}
+
+.maharat-meta-box__actions .maharat-create:hover {
+    background: #135e96;
+}
+
+/* Auto-translate spinner */
+.maharat-meta-box__actions .maharat-auto-translate.loading::after {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #c3c4c7;
+    border-top-color: #2271b1;
+    border-radius: 50%;
+    animation: maharat-spin 0.6s linear infinite;
+    margin-left: 4px;
+    vertical-align: middle;
+}
+
+@keyframes maharat-spin {
+    to { transform: rotate(360deg); }
+}
+
+/* =====================================================================
+   Language Selector on New Post
+   ===================================================================== */
+.maharat-meta-box__current-lang {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #c3c4c7;
+}
+
+.maharat-meta-box__current-lang label {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.maharat-meta-box__current-lang select {
+    max-width: 200px;
+}
+
+/* =====================================================================
+   Translation Status Column (post list table)
+   ===================================================================== */
+.column-maharat_translations {
+    width: 120px;
+}
+
+.maharat-translation-flags {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+
+.maharat-translation-flags img {
+    width: 18px;
+    height: 12px;
+    border-radius: 1px;
+    opacity: 0.3;
+    transition: opacity 0.15s;
+}
+
+.maharat-translation-flags img.has-translation {
+    opacity: 1;
+}
+
+.maharat-translation-flags img.has-translation:hover {
+    transform: scale(1.2);
+}
+
+/* =====================================================================
+   Gutenberg Sidebar Panel
+   ===================================================================== */
+.maharat-gutenberg-panel .components-panel__body-toggle {
+    font-weight: 600;
+}
+
+.maharat-gutenberg-panel .maharat-lang-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 0;
+    border-bottom: 1px solid #f0f0f1;
+}
+
+.maharat-gutenberg-panel .maharat-lang-item:last-child {
+    border-bottom: none;
+}

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 30" width="24" height="16">
+  <!-- United States Flag (Simplified) -->
+  <rect width="60" height="30" fill="#B22234"/>
+  <rect y="2.31" width="60" height="2.31" fill="#FFF"/>
+  <rect y="6.92" width="60" height="2.31" fill="#FFF"/>
+  <rect y="11.54" width="60" height="2.31" fill="#FFF"/>
+  <rect y="16.15" width="60" height="2.31" fill="#FFF"/>
+  <rect y="20.77" width="60" height="2.31" fill="#FFF"/>
+  <rect y="25.38" width="60" height="2.31" fill="#FFF"/>
+  <rect width="24" height="16.15" fill="#3C3B6E"/>
+  <!-- Stars (simplified as dots) -->
+  <g fill="#FFF" font-size="2">
+    <circle cx="4" cy="2" r="0.8"/>
+    <circle cx="8" cy="2" r="0.8"/>
+    <circle cx="12" cy="2" r="0.8"/>
+    <circle cx="16" cy="2" r="0.8"/>
+    <circle cx="20" cy="2" r="0.8"/>
+    <circle cx="6" cy="4" r="0.8"/>
+    <circle cx="10" cy="4" r="0.8"/>
+    <circle cx="14" cy="4" r="0.8"/>
+    <circle cx="18" cy="4" r="0.8"/>
+    <circle cx="4" cy="6" r="0.8"/>
+    <circle cx="8" cy="6" r="0.8"/>
+    <circle cx="12" cy="6" r="0.8"/>
+    <circle cx="16" cy="6" r="0.8"/>
+    <circle cx="20" cy="6" r="0.8"/>
+    <circle cx="6" cy="8" r="0.8"/>
+    <circle cx="10" cy="8" r="0.8"/>
+    <circle cx="14" cy="8" r="0.8"/>
+    <circle cx="18" cy="8" r="0.8"/>
+    <circle cx="4" cy="10" r="0.8"/>
+    <circle cx="8" cy="10" r="0.8"/>
+    <circle cx="12" cy="10" r="0.8"/>
+    <circle cx="16" cy="10" r="0.8"/>
+    <circle cx="20" cy="10" r="0.8"/>
+    <circle cx="6" cy="12" r="0.8"/>
+    <circle cx="10" cy="12" r="0.8"/>
+    <circle cx="14" cy="12" r="0.8"/>
+    <circle cx="18" cy="12" r="0.8"/>
+    <circle cx="4" cy="14" r="0.8"/>
+    <circle cx="8" cy="14" r="0.8"/>
+    <circle cx="12" cy="14" r="0.8"/>
+    <circle cx="16" cy="14" r="0.8"/>
+    <circle cx="20" cy="14" r="0.8"/>
+  </g>
+</svg>

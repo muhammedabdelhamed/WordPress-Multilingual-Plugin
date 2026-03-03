@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 42" width="24" height="16">
+  <!-- Brazil Flag -->
+  <rect width="60" height="42" fill="#009B3A"/>
+  <!-- Yellow diamond -->
+  <polygon points="30,4 56,21 30,38 4,21" fill="#FEDF00"/>
+  <!-- Blue globe -->
+  <circle cx="30" cy="21" r="10" fill="#002776"/>
+  <!-- White band -->
+  <path d="M20,21 Q30,16 40,21 Q30,26 20,21" fill="none" stroke="#FFF" stroke-width="1.5"/>
+</svg>

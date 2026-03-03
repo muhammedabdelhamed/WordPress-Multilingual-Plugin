@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40" width="24" height="16">
+  <!-- Saudi Arabia Flag -->
+  <rect width="60" height="40" fill="#006C35"/>
+  <!-- Shahada text (simplified) -->
+  <text x="30" y="22" text-anchor="middle" fill="#FFF" font-size="8" font-family="serif" font-weight="bold">لا إله إلا الله</text>
+  <!-- Sword (simplified line) -->
+  <line x1="15" y1="28" x2="45" y2="28" stroke="#FFF" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="15" y1="28" x2="15" y2="25" stroke="#FFF" stroke-width="1.2" stroke-linecap="round"/>
+</svg>
